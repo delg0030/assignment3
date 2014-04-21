@@ -42,6 +42,8 @@ height: 4.5rem;
 
 .nav-top {
     background-color: black;
+    font-family: anton, bold, serif;
+    color: white;
 }
 
 .nav-top ul {
@@ -91,14 +93,17 @@ article {
     margin: 0;
     padding: 0 5%;
     overflow: hidden;
-    border: orange;
-    border width: 3rem;
 }
 
 body {
     margin: 0;
     padding: 0;
-    font-family: Times, Serif;
+}
+
+p {
+    margin: 0;
+    padding: 1rem;
+    font-family: Garamond, Baskerville, Times, serif;
 }
 
 h2 {
@@ -112,14 +117,13 @@ h2 {
     float: center;
 }
 
-h {
+h5 {
     font-family: bold, sans-serif;
     font-size: 1rem;
-    padding: 1rem;
-    margin: 3rem 0;
+    padding: 0;
+    margin: 0;
     color: orange;
 }
-
 
 h3 {
     font-family: anton, bold, sans-serif;
@@ -143,7 +147,6 @@ h4 {
     background-color: rgba(213, 195, 237, .4);
 }
     
-
 .bucket3 {
     overflow: hidden;
     margin: 0 0 1.5rem;
@@ -167,25 +170,22 @@ h4 {
     width: 50%;
     margin: 0;
     padding: 1.5rem;
-    background-color: black; /* Visual Aid */
+    background-color: black;
 }
 
+footer {
+    overflow:hidden;
+    border-top-color: black;
+}
 
-
-
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
- footer {
+.bucket4 {
+    overflow:  hidden;
     background-color: orange;
-    overflow: hidden;
-}   
-    
-    
+}
+
+.bucket4 figure {
+    float: right;
+    width: 10%;
+    margin: .5rem; 
+    padding: 0;
+}
